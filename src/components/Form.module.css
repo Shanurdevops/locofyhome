@@ -1,0 +1,296 @@
+.signIn {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  font-weight: 700;
+  font-family: inherit;
+}
+.emailAddress {
+  width: calc(100% - 55.8px);
+  border: 0;
+  outline: 0;
+  font-family: var(--font-archivo);
+  font-size: var(--font-size-base);
+  background-color: transparent;
+  height: 17px;
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.24px;
+  color: var(--light-text);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  min-width: 150px;
+  max-width: calc(100% - 29px);
+  padding: 0;
+}
+.iconaccount {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  min-height: 20px;
+}
+.email,
+.password1 {
+  display: flex;
+  align-items: center;
+}
+.email {
+  align-self: stretch;
+  border-radius: var(--br-9xs);
+  background-color: var(--white);
+  border: 1px solid var(--color-gainsboro);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: var(--padding-base-5) var(--padding-mid) var(--padding-base-5)
+    var(--padding-lg-8);
+  gap: var(--gap-3xs-4);
+  max-width: 100%;
+}
+.password1 {
+  width: calc(100% - 55.8px);
+  border: 0;
+  outline: 0;
+  font-family: var(--font-archivo);
+  font-size: var(--font-size-base);
+  background-color: transparent;
+  height: 17px;
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.24px;
+  color: var(--light-text);
+  text-align: left;
+  min-width: 150px;
+  max-width: calc(100% - 29px);
+  padding: 0;
+}
+.iconpassword {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  min-height: 20px;
+}
+.formFields,
+.password {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.password {
+  border-radius: var(--br-9xs);
+  background-color: var(--white);
+  border: 1px solid var(--color-gainsboro);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-base-5) var(--padding-mid) var(--padding-base-5)
+    var(--padding-lg-8);
+  gap: var(--gap-3xs-4);
+}
+.formFields {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-base-7);
+}
+.button {
+  width: 54px;
+  position: relative;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.46px;
+  line-height: 26px;
+  font-weight: 600;
+  font-family: var(--font-archivo);
+  color: var(--white);
+  text-align: center;
+  display: inline-block;
+  min-width: 54px;
+}
+.searchFlightsButton {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-smi) var(--padding-34xl);
+  background-color: var(--accent);
+  border-radius: var(--br-7xs);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+.searchFlightsButton:hover {
+  background-color: var(--color-lightseagreen-100);
+}
+.form2 {
+  margin: 0;
+  gap: var(--gap-7xl-7);
+}
+.emailField,
+.form1,
+.form2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.emailField {
+  gap: var(--gap-5xl);
+  flex-shrink: 0;
+  font-size: var(--font-size-7xl);
+}
+.formChild,
+.orSignIn {
+  align-self: stretch;
+  position: relative;
+}
+.formChild {
+  height: 2px;
+  border-top: 1.6px solid var(--color-whitesmoke-200);
+  box-sizing: border-box;
+}
+.orSignIn {
+  letter-spacing: 0.02em;
+  line-height: 26px;
+}
+.imageIcon {
+  width: 40px;
+  height: 40.5px;
+  position: relative;
+  object-fit: cover;
+}
+.text {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.24px;
+}
+.socialLogin {
+  flex: 1;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-whitesmoke-100);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-6xl) var(--padding-smi) var(--padding-6xl)
+    var(--padding-sm-1);
+  box-sizing: border-box;
+  gap: var(--gap-lg);
+  min-width: 125px;
+}
+.imageIcon1 {
+  width: 40px;
+  height: 40.5px;
+  position: relative;
+  object-fit: cover;
+}
+.text1 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.24px;
+  display: inline-block;
+  min-width: 73px;
+}
+.socialLogin1 {
+  flex: 0.5663;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-whitesmoke-100);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-6xl) var(--padding-22xl);
+  box-sizing: border-box;
+  gap: var(--gap-lg);
+  min-width: 125px;
+}
+.imageIcon2 {
+  width: 40px;
+  height: 40.5px;
+  position: relative;
+  object-fit: cover;
+}
+.text2 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.24px;
+}
+.socialLogin2 {
+  flex: 0.9992;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-whitesmoke-100);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-6xl) var(--padding-sm-1);
+  box-sizing: border-box;
+  gap: var(--gap-lg);
+  min-width: 125px;
+}
+.socialLoginContainer,
+.socialMediaLogin {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.socialLoginContainer {
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0 var(--padding-9xs) 0 0;
+  gap: 14px 12px;
+  text-align: center;
+  color: var(--light-text);
+}
+.socialMediaLogin {
+  flex-direction: column;
+  gap: var(--gap-3xs);
+  flex-shrink: 0;
+}
+.signUp {
+  color: var(--accent);
+}
+.dontHaveAnContainer {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 26px;
+  text-align: center;
+  cursor: pointer;
+}
+.form {
+  flex: 1;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-21xl) var(--padding-29xl);
+  box-sizing: border-box;
+  gap: var(--gap-18xl-2);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--dark);
+  font-family: var(--font-archivo);
+}
+@media screen and (max-width: 750px) {
+  .form {
+    gap: var(--gap-lgi);
+    padding: var(--padding-7xl) var(--padding-5xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .signIn {
+    font-size: var(--font-size-2xl);
+  }
+}
